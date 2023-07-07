@@ -12,6 +12,7 @@ class Employee
         Console.WriteLine("I am Default Constructor.");
     }
 
+    //Parameterized Constructor
     public Employee(int EmpId,string EmpName, int EmpAge)
     {
         this.EmpId = EmpId;
