@@ -5,13 +5,14 @@ class Employee
 {
     int EmpId,EmpAge;
     string EmpName;
-    
-    //Default Constructor
+
+   // default constructor
     public Employee()
     {
-        Console.WriteLine("I am Default Constructor.");
+        Console.WriteLine("i am default constructor.");
     }
 
+    //constructor overloading
     public Employee(int EmpId,string EmpName, int EmpAge)
     {
         this.EmpId = EmpId;
