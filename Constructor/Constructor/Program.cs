@@ -12,7 +12,7 @@ class Employee
         Console.WriteLine("i am default constructor.");
     }
 
-    //constructor overloading
+    //Parameterized Constructor
     public Employee(int EmpId,string EmpName, int EmpAge)
     {
         this.EmpId = EmpId;
